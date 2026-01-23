@@ -7,7 +7,7 @@
       "keepAlive": 0,
       "keepAliveIdle": false,
       "newStyleAsUsercss": true,
-      "openEditInWindow": true,
+      "openEditInWindow": false,
       "openEditInWindow.popup": false,
       "patchCsp": true,
       "show-badge": true,
@@ -30,7 +30,7 @@
       "popup.autoResort": false,
       "popup.borders": false,
       "popup.findSort": "w",
-      "manage.onlyEnabled": true,
+      "manage.onlyEnabled": false,
       "manage.onlyLocal": true,
       "manage.onlyUsercss": false,
       "manage.onlyEnabled.invert": false,
@@ -53,7 +53,7 @@
       "editor.options.style.expanded": true,
       "editor.lint.expanded": true,
       "editor.publish.expanded": true,
-      "editor.lineWrapping": true,
+      "editor.lineWrapping": false,
       "editor.smartIndent": true,
       "editor.indentWithTabs": true,
       "editor.tabSize": 2,
@@ -280,7 +280,7 @@
     "originalDigest": "a80bde9c654f05c2cbd67131baa9be02fd06ad25",
     "id": 1,
     "_id": "fee4488d-b98f-4594-bfd0-5bd6825617ed",
-    "_rev": 1764302708337,
+    "_rev": 1769139979053,
     "sections": [
       {
         "code": ""
@@ -454,7 +454,7 @@
     "originalDigest": "20d95df881ea87e446916e172e943b74df462233",
     "id": 2,
     "_id": "e691cfdc-003e-4f59-b6f4-4fc96470aafb",
-    "_rev": 1764302708479,
+    "_rev": 1769139979079,
     "sections": [
       {
         "code": ""
@@ -628,7 +628,7 @@
     "originalDigest": "a0aa98e97da8bbd8f13d88bc7556689594508fba",
     "id": 3,
     "_id": "b8c6f64b-a6d2-4952-a2f2-4e19dddb6fef",
-    "_rev": 1764991584261,
+    "_rev": 1769139979092,
     "sections": [
       {
         "code": ""
@@ -804,7 +804,7 @@
     "originalDigest": "9419cfccaa3ea80e05c1eee3d674b6e3500d1038",
     "id": 4,
     "_id": "29e79334-37ce-43fd-9713-1ca081139b2a",
-    "_rev": 1764302708507,
+    "_rev": 1769139979104,
     "sections": [
       {
         "code": ""
@@ -978,7 +978,7 @@
     "originalDigest": "223842f258844809eefb9b7878b040499bf173c3",
     "id": 5,
     "_id": "ce1648da-ed37-45d7-9433-aeb71abb2287",
-    "_rev": 1764302708534,
+    "_rev": 1769139979129,
     "sections": [
       {
         "code": ""
@@ -1152,7 +1152,7 @@
     "originalDigest": "5072bca407281df751e027e04ec0998f07e7aec6",
     "id": 6,
     "_id": "2cfe8f02-faff-4681-8865-6763339c12ab",
-    "_rev": 1764302708548,
+    "_rev": 1769139979148,
     "sections": [
       {
         "code": ""
@@ -1326,7 +1326,7 @@
     "originalDigest": "824fda9acec4e96663dfbd81372d214d6553c774",
     "id": 7,
     "_id": "0d9e4fb8-ae66-401d-9572-654b83d92fcb",
-    "_rev": 1764302708565,
+    "_rev": 1769139979160,
     "sections": [
       {
         "code": ""
@@ -1684,7 +1684,7 @@
     "originalDigest": "5f564e23085a7e0911d04a1502d9f4d08e12c597",
     "id": 8,
     "_id": "f9f636e9-6022-4bb0-887d-65735b77a0d2",
-    "_rev": 1764302708584,
+    "_rev": 1769139979173,
     "sections": [
       {
         "code": ""
@@ -1858,7 +1858,7 @@
     "originalDigest": "f2e62e10af7084683b63aba37f2dbc8caac84d4c",
     "id": 9,
     "_id": "30321c29-52a5-4c55-98a4-03aa4606db10",
-    "_rev": 1764302708608,
+    "_rev": 1769139979194,
     "sections": [
       {
         "code": ""
@@ -2032,7 +2032,7 @@
     "originalDigest": "eb4fb87cd4b574a1f483d7a1c333c558757de398",
     "id": 10,
     "_id": "d49d4738-4d33-4ace-9573-7e5dfacc9d9c",
-    "_rev": 1764302708623,
+    "_rev": 1769139979219,
     "sections": [
       {
         "code": ""
@@ -2206,7 +2206,7 @@
     "originalDigest": "834d6a2b50ce618f7ee7603bdc3dbd1deb97d5c5",
     "id": 11,
     "_id": "5f6f4784-617a-44d0-83ea-32b2079136d9",
-    "_rev": 1764302708635,
+    "_rev": 1769139979235,
     "sections": [
       {
         "code": ""
@@ -2380,7 +2380,7 @@
     "originalDigest": "e58eef65d9a1610ede496323df476f72d840c40d",
     "id": 12,
     "_id": "87599e7b-10e6-45f5-9d41-e4602a577fa8",
-    "_rev": 1764302708658,
+    "_rev": 1769139979256,
     "sections": [
       {
         "code": ""
@@ -2586,7 +2586,7 @@
     "originalDigest": "fea230e37a2f6eab69c347f6ed8384ffa5e6153e",
     "id": 13,
     "_id": "7b452a4e-bc3d-4d19-aa1b-697c225fd738",
-    "_rev": 1768826943631,
+    "_rev": 1769139979275,
     "sections": [
       {
         "code": ""
@@ -2762,7 +2762,7 @@
     "originalDigest": "b943655c364ec0f3eb8687ebc14ec81ca29cec4c",
     "id": 14,
     "_id": "ed3e3279-16bf-4abb-987c-274a4fb99d3d",
-    "_rev": 1764302708705,
+    "_rev": 1769139979297,
     "sections": [
       {
         "code": ""
@@ -2936,7 +2936,7 @@
     "originalDigest": "6011cbc337a44709a228e1535e812cf94ddabca9",
     "id": 15,
     "_id": "448dc0d8-9295-49ed-b6d8-c7fd5c9b0ce7",
-    "_rev": 1764302708714,
+    "_rev": 1769139979307,
     "sections": [
       {
         "code": ""
@@ -3110,7 +3110,7 @@
     "originalDigest": "e32c0f5fc1b1019743d0c8209eb0042e65923506",
     "id": 16,
     "_id": "3903d35e-6fa7-449d-810c-96e256e3015b",
-    "_rev": 1764302708724,
+    "_rev": 1769139979315,
     "sections": [
       {
         "code": ""
@@ -3300,7 +3300,7 @@
     "originalDigest": "fe4ee6f02bc2532926061730a37ec8ac6bb39d9f",
     "id": 17,
     "_id": "84a8c023-f42b-4fda-9be2-a2f40aef8416",
-    "_rev": 1764302708738,
+    "_rev": 1769139979328,
     "sections": [
       {
         "code": ""
@@ -3474,7 +3474,7 @@
     "originalDigest": "8c21c83284e09a145e741da3e3914cdd2f054261",
     "id": 18,
     "_id": "331d3e83-db46-472a-b3af-49f41b291a46",
-    "_rev": 1764302708764,
+    "_rev": 1769139979351,
     "sections": [
       {
         "code": ""
@@ -3648,7 +3648,7 @@
     "originalDigest": "71ba2d7bc45ac4ca5d09aeae32518276ef1b3fcb",
     "id": 19,
     "_id": "2b89a048-0c62-4dd7-a142-2e273049b7f8",
-    "_rev": 1764302708776,
+    "_rev": 1769139979364,
     "sections": [
       {
         "code": ""
@@ -3822,7 +3822,7 @@
     "originalDigest": "1c89f3929abf14f3504161298fe463b0639d68d2",
     "id": 20,
     "_id": "4c75ac8a-32f8-43b6-8e34-56e31d50d51a",
-    "_rev": 1764302708787,
+    "_rev": 1769139979373,
     "sections": [
       {
         "code": ""
@@ -4004,7 +4004,7 @@
     "originalDigest": "498be1ac65d645f23791c145ee81d661a8f9ef9e",
     "id": 21,
     "_id": "e3c5a096-801e-4b61-b256-1752283bff1a",
-    "_rev": 1764302708804,
+    "_rev": 1769139979387,
     "sections": [
       {
         "code": ""
@@ -4202,7 +4202,7 @@
     "originalDigest": "b481e9f0abb67fed3b1de24eff17383711240a81",
     "id": 22,
     "_id": "7932d26f-8011-4418-9912-d4c0977bf032",
-    "_rev": 1764302708817,
+    "_rev": 1769139979398,
     "sections": [
       {
         "code": ""
@@ -4376,7 +4376,7 @@
     "originalDigest": "243eb22c8c46f61ed4a9a16f93927c298bc7cb50",
     "id": 23,
     "_id": "188ed935-cd37-4554-9d7a-012a6be0c78d",
-    "_rev": 1764302708833,
+    "_rev": 1769139979412,
     "sections": [
       {
         "code": ""
@@ -4550,7 +4550,7 @@
     "originalDigest": "95ed31860e548620d1061bc45aa80053145698cb",
     "id": 24,
     "_id": "0552f066-e998-4960-b7d4-57468035b199",
-    "_rev": 1764302708843,
+    "_rev": 1769139979421,
     "sections": [
       {
         "code": ""
@@ -4724,7 +4724,7 @@
     "originalDigest": "3dbbc6f7ebb510029fa07b7b3867350734d0c533",
     "id": 25,
     "_id": "96f3ed73-8193-4b5c-b17d-b0044f795b5d",
-    "_rev": 1764302708855,
+    "_rev": 1769139979430,
     "sections": [
       {
         "code": ""
@@ -4898,7 +4898,7 @@
     "originalDigest": "678d2be565fcc8d4f2a7fbfe4e9e4de44b4fc555",
     "id": 26,
     "_id": "fc9b0d3c-db16-4545-be0e-430243709098",
-    "_rev": 1768608662076,
+    "_rev": 1769139979439,
     "sections": [
       {
         "code": ""
@@ -5074,7 +5074,7 @@
     "originalDigest": "2c695e8bafffc4a1f6f52d76a5776a2cecc77fd5",
     "id": 27,
     "_id": "31dd76ef-1a57-47d1-89c3-64a111c5dd37",
-    "_rev": 1764302708879,
+    "_rev": 1769139979453,
     "sections": [
       {
         "code": ""
@@ -5248,7 +5248,7 @@
     "originalDigest": "f689bdbabeb645ab09c3127b3e1f4964912bde25",
     "id": 28,
     "_id": "90cb205b-7b3f-487a-89d3-9cfb121740b5",
-    "_rev": 1768827301618,
+    "_rev": 1769139979464,
     "sections": [
       {
         "code": ""
@@ -5422,7 +5422,7 @@
     "originalDigest": "ded456bb7177651c24a496b9e12a81b8f0a0c30e",
     "id": 29,
     "_id": "53432fdd-ff92-48eb-b76b-efc620902cbe",
-    "_rev": 1764302708903,
+    "_rev": 1769139979473,
     "sections": [
       {
         "code": ""
@@ -5596,7 +5596,7 @@
     "originalDigest": "c03f97909ebf604c13736dafa6e6c8398176287f",
     "id": 30,
     "_id": "bbed9a60-c4d9-4c84-9e40-6b81d81fc919",
-    "_rev": 1764302708913,
+    "_rev": 1769139979482,
     "sections": [
       {
         "code": ""
@@ -5770,7 +5770,7 @@
     "originalDigest": "cc78cdb49d782589d264c0bf318a3f0cf2abff16",
     "id": 31,
     "_id": "affba37a-06b7-4554-95aa-e861524f15c1",
-    "_rev": 1764302709409,
+    "_rev": 1769139979497,
     "sections": [
       {
         "code": ""
@@ -5952,7 +5952,7 @@
     "originalDigest": "d4aa9486618f27da0e1f1074b1da198cb2521b46",
     "id": 32,
     "_id": "049df720-f995-45b7-a7cc-b50aaa866f19",
-    "_rev": 1764302709711,
+    "_rev": 1769139979508,
     "sections": [
       {
         "code": ""
@@ -6126,7 +6126,7 @@
     "originalDigest": "e0c3c51f63b8ef856d582802dc37e15ecdbff3f3",
     "id": 33,
     "_id": "77aefce5-e016-457e-8e78-d8b9f605b679",
-    "_rev": 1764302709735,
+    "_rev": 1769139979525,
     "sections": [
       {
         "code": ""
@@ -6300,7 +6300,7 @@
     "originalDigest": "f8c3efab87978803b4ad586f90c65cd1fc0c3b97",
     "id": 34,
     "_id": "7c9ccefb-c51a-40a2-9f57-f1f059945e8e",
-    "_rev": 1764302709748,
+    "_rev": 1769139979538,
     "sections": [
       {
         "code": ""
@@ -6482,7 +6482,7 @@
     "originalDigest": "0ce0662acb5aa85c947c1e028d9ad7d103fcf95f",
     "id": 35,
     "_id": "6d012e01-f10b-4eda-9312-d367490fc317",
-    "_rev": 1764302709768,
+    "_rev": 1769139979558,
     "sections": [
       {
         "code": ""
@@ -6656,7 +6656,7 @@
     "originalDigest": "47b84c2d8b1cfe50497420d1a0510587f3938d84",
     "id": 36,
     "_id": "665d2854-84ce-4b1f-ad0b-403a4d26ab5f",
-    "_rev": 1764302709782,
+    "_rev": 1769139979580,
     "sections": [
       {
         "code": ""
@@ -6830,7 +6830,7 @@
     "originalDigest": "b62cb233f9612ab7f57d8bad275f69bd96f6decc",
     "id": 37,
     "_id": "88ffc353-5784-4b7a-bdd8-14a89a5efd27",
-    "_rev": 1764302709797,
+    "_rev": 1769139979595,
     "sections": [
       {
         "code": ""
@@ -7004,7 +7004,7 @@
     "originalDigest": "a2bcc2b39a0a7288b28e4d212239656532151edb",
     "id": 38,
     "_id": "8ec8df45-e70c-4ca4-ba28-cc839fa0dd88",
-    "_rev": 1764302709805,
+    "_rev": 1769139979613,
     "sections": [
       {
         "code": ""
@@ -7178,7 +7178,7 @@
     "originalDigest": "3d7fe0517f4a9a21af3c4635c7fbfc64c02274f2",
     "id": 39,
     "_id": "e8d55a46-af5f-451e-bfef-eb560528de3e",
-    "_rev": 1764302709821,
+    "_rev": 1769139979628,
     "sections": [
       {
         "code": ""
@@ -7352,7 +7352,7 @@
     "originalDigest": "353cc0051e876d948a60ed7d3298e15c77d95c3f",
     "id": 40,
     "_id": "84064c59-6e35-4199-9194-752294f5dcae",
-    "_rev": 1764302709835,
+    "_rev": 1769139979642,
     "sections": [
       {
         "code": ""
@@ -7534,7 +7534,7 @@
     "originalDigest": "e30f8bcc4bf357eb4e1c1a6b755153aed215a240",
     "id": 41,
     "_id": "648b51ac-00e8-4117-bb2e-7c227658e97e",
-    "_rev": 1764302709855,
+    "_rev": 1769139979653,
     "sections": [
       {
         "code": ""
@@ -7708,7 +7708,7 @@
     "originalDigest": "5ad3fafb3650ed9b7f932bf8bf9084b088607d09",
     "id": 42,
     "_id": "3f32fe13-0a20-425b-a9f8-1823a0f7dafa",
-    "_rev": 1764302709873,
+    "_rev": 1769139979665,
     "sections": [
       {
         "code": ""
@@ -7882,7 +7882,7 @@
     "originalDigest": "2d0166f36ae432e1ad6d89af9b62cfdb75c9b9b8",
     "id": 43,
     "_id": "8efadaa6-23d6-41f1-973e-529d55570057",
-    "_rev": 1764302709891,
+    "_rev": 1769139979682,
     "sections": [
       {
         "code": ""
@@ -8056,7 +8056,7 @@
     "originalDigest": "d7c63aa55ac37a48d1ea4207d1a28c1d0c0e5e9d",
     "id": 44,
     "_id": "29476b8a-2451-4364-b498-6b16696cd409",
-    "_rev": 1764302709913,
+    "_rev": 1769139979699,
     "sections": [
       {
         "code": ""
@@ -8230,7 +8230,7 @@
     "originalDigest": "54fdb223945ab71948b4db59676eceb9a11d6a16",
     "id": 45,
     "_id": "47422426-5cbd-43da-8383-156303498feb",
-    "_rev": 1764302710065,
+    "_rev": 1769139979711,
     "sections": [
       {
         "code": ""
@@ -8404,7 +8404,7 @@
     "originalDigest": "49e0a13459236d313b05e4e15b7c17672483afa9",
     "id": 46,
     "_id": "2e23ca5a-5e38-485e-9a89-391ceb46ac3c",
-    "_rev": 1768944986401,
+    "_rev": 1769139979721,
     "sections": [
       {
         "code": ""
@@ -8580,7 +8580,7 @@
     "originalDigest": "7678590c793f7e86782e189c7a278c8bf76b4e25",
     "id": 47,
     "_id": "d130fb8b-e3d7-412b-b61e-ebac99c0e963",
-    "_rev": 1764302710114,
+    "_rev": 1769139979757,
     "sections": [
       {
         "code": ""
@@ -8754,7 +8754,7 @@
     "originalDigest": "6a5f044d8a8977b4ee3ef02d029532ed839e3bd0",
     "id": 48,
     "_id": "e17b8e72-034a-4756-8cf2-11589527ba61",
-    "_rev": 1764302710128,
+    "_rev": 1769139979770,
     "sections": [
       {
         "code": ""
@@ -8928,7 +8928,7 @@
     "originalDigest": "c4588f9dd7c9d7ad07d94b71d07eaef4162a9cdc",
     "id": 49,
     "_id": "f0b9fd96-9eee-403b-80f0-dff2691eba01",
-    "_rev": 1764302710138,
+    "_rev": 1769139979780,
     "sections": [
       {
         "code": ""
@@ -9102,7 +9102,7 @@
     "originalDigest": "4ff5bb7d6c29ccb4fecf067019de867eb9f1437d",
     "id": 50,
     "_id": "a3e9038a-9d5a-4bcb-8155-2b690e1c5396",
-    "_rev": 1764302710147,
+    "_rev": 1769139979787,
     "sections": [
       {
         "code": ""
@@ -9276,7 +9276,7 @@
     "originalDigest": "594f003abc0e3c97fff22460fbf1b8d19c0cb6e2",
     "id": 51,
     "_id": "c74ad9b5-d6b8-4fca-bc02-470f6e19af0b",
-    "_rev": 1764302710158,
+    "_rev": 1769139979797,
     "sections": [
       {
         "code": ""
@@ -9450,7 +9450,7 @@
     "originalDigest": "78e566ceb53a79093056f9a7c502d71416d9158a",
     "id": 52,
     "_id": "9abeba7f-fbc2-40a0-a647-7968e39a6a55",
-    "_rev": 1764302710168,
+    "_rev": 1769139979805,
     "sections": [
       {
         "code": ""
@@ -9624,7 +9624,7 @@
     "originalDigest": "b7047996bd8c687154fd1def18f4623ba1246417",
     "id": 53,
     "_id": "8ed5a600-c6d9-4be3-aeff-312c811db439",
-    "_rev": 1764302710177,
+    "_rev": 1769139979813,
     "sections": [
       {
         "code": ""
@@ -9798,7 +9798,7 @@
     "originalDigest": "c7fb8d07e4ae47041238668f8868cd16d970a35b",
     "id": 54,
     "_id": "b2dab46d-1d83-41d7-a28c-9a3b2bee377f",
-    "_rev": 1764991586482,
+    "_rev": 1769139979824,
     "sections": [
       {
         "code": ""
@@ -9974,7 +9974,7 @@
     "originalDigest": "a861014a8c569f67fc060bf3713a2c32f5e0a31f",
     "id": 55,
     "_id": "e12feb3d-4bdf-45f1-b529-59e0d458141b",
-    "_rev": 1764302710204,
+    "_rev": 1769139979836,
     "sections": [
       {
         "code": ""
@@ -10148,7 +10148,7 @@
     "originalDigest": "fba0f12716692c0316fa9da995753a6a374dce65",
     "id": 56,
     "_id": "e35d8420-692a-444a-b8d9-76cf32471ef4",
-    "_rev": 1764302710232,
+    "_rev": 1769139979863,
     "sections": [
       {
         "code": ""
@@ -10322,7 +10322,7 @@
     "originalDigest": "98d079c96209b65cc0cf75d3181607bf1a7be316",
     "id": 57,
     "_id": "88bce7c7-8e02-4ddc-bfee-34c59455fbde",
-    "_rev": 1764302710247,
+    "_rev": 1769139979878,
     "sections": [
       {
         "code": ""
@@ -10496,7 +10496,7 @@
     "originalDigest": "be0160b58bbe7129f8b33c7376ac8dca18bd93db",
     "id": 58,
     "_id": "243cee36-0efb-4f17-90d6-06cdfc4a1866",
-    "_rev": 1764302710262,
+    "_rev": 1769139979892,
     "sections": [
       {
         "code": ""
@@ -10670,7 +10670,7 @@
     "originalDigest": "aaad8033bb76fdd6b63ddcff4c6c97e5e61b6562",
     "id": 59,
     "_id": "0aa324e8-cad2-4e80-b1bd-119a93c26181",
-    "_rev": 1768826599182,
+    "_rev": 1769139979901,
     "sections": [
       {
         "code": ""
@@ -10844,7 +10844,7 @@
     "originalDigest": "07ca3235601fc92ceabba242a7809a545755e9bf",
     "id": 60,
     "_id": "e8124a9d-8029-482f-9d6b-58ac418d041a",
-    "_rev": 1764302710310,
+    "_rev": 1769139979936,
     "sections": [
       {
         "code": ""
@@ -11018,7 +11018,7 @@
     "originalDigest": "a5dd9f9ea1be361aba9e59b2727f44afc9c6f9c4",
     "id": 61,
     "_id": "799b1bed-21b5-42e1-9cff-3b5e61f7a536",
-    "_rev": 1764302710794,
+    "_rev": 1769139979969,
     "sections": [
       {
         "code": ""
@@ -11192,7 +11192,7 @@
     "originalDigest": "fed11ab9a0833fb29c80d3fae2fde23d0c7b1a63",
     "id": 62,
     "_id": "7f71f636-dd54-4a51-b697-14d2f7648d0c",
-    "_rev": 1764302711101,
+    "_rev": 1769139979982,
     "sections": [
       {
         "code": ""
@@ -11366,7 +11366,7 @@
     "originalDigest": "a0ce277fa56fc442092f1b4ff670add092551f16",
     "id": 63,
     "_id": "ebecaa2e-110a-4957-a91f-1954f5e9d6cd",
-    "_rev": 1764302711117,
+    "_rev": 1769139979992,
     "sections": [
       {
         "code": ""
@@ -11540,7 +11540,7 @@
     "originalDigest": "1ef6bfd3c7a58912766796e6ca2c3a00ce8553fa",
     "id": 64,
     "_id": "fce58ae9-2d32-4958-98df-cb1329844a25",
-    "_rev": 1764302711127,
+    "_rev": 1769139980002,
     "sections": [
       {
         "code": ""
@@ -11714,7 +11714,7 @@
     "originalDigest": "317d80194044d5e21414335b55702105f3100d3e",
     "id": 65,
     "_id": "8d3ea5bd-2e65-4f0e-ac4d-bcc50f88880e",
-    "_rev": 1764302711149,
+    "_rev": 1769139980017,
     "sections": [
       {
         "code": ""
@@ -11888,7 +11888,7 @@
     "originalDigest": "0fe26d4e402e28c63cd15e81385fb79a3998931a",
     "id": 66,
     "_id": "7d358b0e-5c6b-4de8-aab7-537364b1daa3",
-    "_rev": 1764302711169,
+    "_rev": 1769139980032,
     "sections": [
       {
         "code": ""
@@ -12062,7 +12062,7 @@
     "originalDigest": "1e961c5016afccaba6a043599bf2efbd9b0b05fd",
     "id": 67,
     "_id": "b05ba21a-a69d-47cd-bd5f-0929a0730757",
-    "_rev": 1764302711187,
+    "_rev": 1769139980057,
     "sections": [
       {
         "code": ""
@@ -12236,7 +12236,7 @@
     "originalDigest": "e86859039be950617826a5d85fcb08d11dcb30c4",
     "id": 68,
     "_id": "97971e54-f6d0-40d3-b5e7-38a33c8e66c4",
-    "_rev": 1764302711211,
+    "_rev": 1769139980090,
     "sections": [
       {
         "code": ""
@@ -12410,7 +12410,7 @@
     "originalDigest": "55a5c6871274f2e18d707c6ac2ff1a29c2d69a5d",
     "id": 69,
     "_id": "b1bbac0b-b4e6-4bb5-89cb-52bc03b0f3f7",
-    "_rev": 1764302711223,
+    "_rev": 1769139980104,
     "sections": [
       {
         "code": ""
@@ -12584,7 +12584,7 @@
     "originalDigest": "a41eee8a0ea7dfad201fa52c76651c0b059b875c",
     "id": 70,
     "_id": "f6130d45-0715-456d-8cee-5706f49dcf6d",
-    "_rev": 1764302711234,
+    "_rev": 1769139980118,
     "sections": [
       {
         "code": ""
@@ -12758,7 +12758,7 @@
     "originalDigest": "8b20d9b6abf1727708f38f8932dc6a59589c21e2",
     "id": 71,
     "_id": "ad7a9a25-7e3f-4d0e-8d22-01e28e06d999",
-    "_rev": 1764302711253,
+    "_rev": 1769139980133,
     "sections": [
       {
         "code": ""
@@ -12932,7 +12932,7 @@
     "originalDigest": "975df7e412127d0ed64b6a34a610d046d971f0a9",
     "id": 72,
     "_id": "f6ba2d5c-7d51-4fc6-94af-b38d623ed09e",
-    "_rev": 1768520353085,
+    "_rev": 1769139980149,
     "sections": [
       {
         "code": ""
@@ -13108,7 +13108,7 @@
     "originalDigest": "04274ba489fcc3e205b86b529fc59dfce0c5c957",
     "id": 73,
     "_id": "1262a905-7e9b-4ee7-a73a-ee39a39fa372",
-    "_rev": 1764302711286,
+    "_rev": 1769139980163,
     "sections": [
       {
         "code": ""
@@ -13282,7 +13282,7 @@
     "originalDigest": "a9880aa33585a3ebf1552f7f052f2a825d289463",
     "id": 74,
     "_id": "55f92bd7-c152-4f42-ab18-955a0b3045f5",
-    "_rev": 1764302711451,
+    "_rev": 1769139980171,
     "sections": [
       {
         "code": ""
@@ -13456,7 +13456,7 @@
     "originalDigest": "8d0fbfbb0609958e44b57b27b19ac05ee444669b",
     "id": 75,
     "_id": "793ef1d2-121a-4847-8482-6000f186c735",
-    "_rev": 1767040803181,
+    "_rev": 1769139980198,
     "sections": [
       {
         "code": ""
@@ -13632,7 +13632,7 @@
     "originalDigest": "6d94e666223f6f63fa99cf85f8355b7a38446f9b",
     "id": 76,
     "_id": "c4e28e64-caba-45fe-ab85-e537003b9101",
-    "_rev": 1764302711496,
+    "_rev": 1769139980212,
     "sections": [
       {
         "code": ""
@@ -13806,7 +13806,7 @@
     "originalDigest": "4477caecfe3f72e7af79e868c31a7d21c2961a1c",
     "id": 77,
     "_id": "0a0d4518-679c-442a-bd62-6fbcf65e6213",
-    "_rev": 1764302711509,
+    "_rev": 1769139980222,
     "sections": [
       {
         "code": ""
@@ -13980,7 +13980,7 @@
     "originalDigest": "a0fc162be8004d8197619140c5df740833aa8df1",
     "id": 78,
     "_id": "da47d2c3-44ef-49af-9c0d-d27b5f0ce7da",
-    "_rev": 1768001941263,
+    "_rev": 1769139980231,
     "sections": [
       {
         "code": ""
@@ -14156,7 +14156,7 @@
     "originalDigest": "9e21538ed2814ebb0f5af447c422bd83f4e16f85",
     "id": 79,
     "_id": "466e3f80-4452-47cf-80b6-8901bd0dba45",
-    "_rev": 1766942588239,
+    "_rev": 1769139980240,
     "sections": [
       {
         "code": ""
@@ -14332,7 +14332,7 @@
     "originalDigest": "fe841016746240b71a58601b8e59d19cc0908d11",
     "id": 80,
     "_id": "46af0b6f-2762-4bd7-a714-4420ebe0d969",
-    "_rev": 1764302711534,
+    "_rev": 1769139980248,
     "sections": [
       {
         "code": ""
@@ -14514,7 +14514,7 @@
     "originalDigest": "40fbe8cab1529500eabe49a796344ed05fc4e28d",
     "id": 81,
     "_id": "de2919fd-ef48-4954-bc9b-6ee1480abdf7",
-    "_rev": 1764302711544,
+    "_rev": 1769139980259,
     "sections": [
       {
         "code": ""
@@ -14688,7 +14688,7 @@
     "originalDigest": "a3bf8218f36cb62e5b8a9188bd7d664220bb7b86",
     "id": 82,
     "_id": "befb4d45-ff6a-4882-9768-9bf8f623dee7",
-    "_rev": 1764302711560,
+    "_rev": 1769139980273,
     "sections": [
       {
         "code": ""
@@ -14870,7 +14870,7 @@
     "originalDigest": "32c2d73e48eaa0abf22717f05a894efd41a5941c",
     "id": 83,
     "_id": "2418d69b-1d88-45dc-8ee5-255f3f495864",
-    "_rev": 1764302711572,
+    "_rev": 1769139980286,
     "sections": [
       {
         "code": ""
@@ -15044,7 +15044,7 @@
     "originalDigest": "32745ddcb3a0168d12b0a4332be24e447c3cc12c",
     "id": 84,
     "_id": "63862fa6-de22-4b9c-ae69-389c8e328397",
-    "_rev": 1764302711604,
+    "_rev": 1769139980310,
     "sections": [
       {
         "code": ""
@@ -15218,7 +15218,7 @@
     "originalDigest": "fdb3fee58092d6d770ff2cd37499fc04cb3cdb99",
     "id": 85,
     "_id": "56344ad4-b18a-4f52-a636-4259a8151493",
-    "_rev": 1764302711631,
+    "_rev": 1769139980333,
     "sections": [
       {
         "code": ""
@@ -15400,7 +15400,7 @@
     "originalDigest": "1c2a17bf6fcdc080d2a3da054bcc150bf4f7f368",
     "id": 86,
     "_id": "a44b818b-0a8f-4c18-bb5a-d6c911964c96",
-    "_rev": 1764302711646,
+    "_rev": 1769139980346,
     "sections": [
       {
         "code": ""
@@ -15574,7 +15574,7 @@
     "originalDigest": "5d2beae77f350412693d7d58bb1db2acf282e5c9",
     "id": 87,
     "_id": "7dc4b2dc-2296-406e-b47d-beb5533b0e77",
-    "_rev": 1764302711657,
+    "_rev": 1769139980358,
     "sections": [
       {
         "code": ""
@@ -15748,7 +15748,7 @@
     "originalDigest": "68d130b67a02893f6b3d4ea69cb8639158456fe8",
     "id": 88,
     "_id": "cb56b7e1-ba7f-4573-8804-d50613eaf9f9",
-    "_rev": 1764302711668,
+    "_rev": 1769139980368,
     "sections": [
       {
         "code": ""
@@ -15922,7 +15922,7 @@
     "originalDigest": "929b34e7aa19445dc0ad5f9877f54a04daa57c45",
     "id": 89,
     "_id": "09b6353b-c7ec-40c9-82fc-5fda4bd25c2f",
-    "_rev": 1764302711684,
+    "_rev": 1769139980384,
     "sections": [
       {
         "code": ""
@@ -16096,7 +16096,7 @@
     "originalDigest": "ed36d900b4a1f54ae76e2d9156fe5f33ba5e0f85",
     "id": 90,
     "_id": "9b7751d1-2266-453d-9679-fba9604ff510",
-    "_rev": 1764302712169,
+    "_rev": 1769139980400,
     "sections": [
       {
         "code": ""
@@ -16270,7 +16270,7 @@
     "originalDigest": "b272f7cfdfbaa93b94d85a2fd6e66e96342d9da2",
     "id": 91,
     "_id": "a74801fd-8827-4ba9-a07a-07e39d8b1307",
-    "_rev": 1764302712478,
+    "_rev": 1769139980418,
     "sections": [
       {
         "code": ""
@@ -16444,7 +16444,7 @@
     "originalDigest": "1f80597e9022de21596776e02a93731128a60847",
     "id": 92,
     "_id": "3d2a19b0-61d7-4345-a20b-87b0f616a0d1",
-    "_rev": 1764302712497,
+    "_rev": 1769139980427,
     "sections": [
       {
         "code": ""
@@ -16618,7 +16618,7 @@
     "originalDigest": "531bb84e076afcacb2af848b4bdea8bffd369119",
     "id": 93,
     "_id": "4269ed0b-6057-4c33-896c-82db601ba573",
-    "_rev": 1767733201559,
+    "_rev": 1769139980435,
     "sections": [
       {
         "code": ""
@@ -16794,7 +16794,7 @@
     "originalDigest": "6c67f7f60b911322764e2eff87c6819b8fef78f6",
     "id": 94,
     "_id": "7724fc7a-4e8b-494c-a92f-ea2ae97ba301",
-    "_rev": 1764302712541,
+    "_rev": 1769139980467,
     "sections": [
       {
         "code": ""
@@ -16968,7 +16968,7 @@
     "originalDigest": "068fe1250a8fcae023bd8e3dc81e6b54495ff519",
     "id": 95,
     "_id": "8e9768a5-6ab2-4529-8d0b-68f6b823e6d8",
-    "_rev": 1768826600087,
+    "_rev": 1769139980488,
     "sections": [
       {
         "code": ""
@@ -17226,7 +17226,7 @@
     "originalDigest": "65bc16df4d83401835a5f17e45251f5486bb7526",
     "id": 96,
     "_id": "b88db820-28f0-4c8e-9e79-4751ebc47397",
-    "_rev": 1764302712566,
+    "_rev": 1769139980503,
     "sections": [
       {
         "code": ""
@@ -17400,7 +17400,7 @@
     "originalDigest": "1d6dcfd4f64ec8c94962888ad06899196d9c69f4",
     "id": 97,
     "_id": "7a16fd65-4dea-4229-990a-23b4f6b4d38e",
-    "_rev": 1764302712586,
+    "_rev": 1769139980520,
     "sections": [
       {
         "code": ""
@@ -17582,7 +17582,7 @@
     "originalDigest": "d5842b1f459f1fb8661501110031416164a640d5",
     "id": 98,
     "_id": "25bfd706-d878-444c-8271-ded34a2d5573",
-    "_rev": 1764302712595,
+    "_rev": 1769139980540,
     "sections": [
       {
         "code": ""
@@ -17756,7 +17756,7 @@
     "originalDigest": "92c1f03ded18792792b6416bbc9bb252144eb02e",
     "id": 99,
     "_id": "28d35d40-0114-4962-8602-404b000b403e",
-    "_rev": 1766942589334,
+    "_rev": 1769139980554,
     "sections": [
       {
         "code": ""
@@ -17940,7 +17940,7 @@
     "originalDigest": "d85c280546b39be5d31228f5dc7952d16d088583",
     "id": 100,
     "_id": "5bf065d6-2bef-4851-be6e-c3afda5184bb",
-    "_rev": 1764302712618,
+    "_rev": 1769139980564,
     "sections": [
       {
         "code": ""
@@ -18114,7 +18114,7 @@
     "originalDigest": "6354350da29e8acb8aa03328ef5313d193e9cb39",
     "id": 101,
     "_id": "f4f1b78a-ca7f-4c15-bab0-2d1f01327249",
-    "_rev": 1764302712628,
+    "_rev": 1769139980574,
     "sections": [
       {
         "code": ""
@@ -18288,7 +18288,7 @@
     "originalDigest": "8d56149a6997381ca1117af77343042fb84205ef",
     "id": 102,
     "_id": "33fd6b22-a889-4115-a6be-48fa2566f4aa",
-    "_rev": 1764302712648,
+    "_rev": 1769139980594,
     "sections": [
       {
         "code": ""
@@ -18462,7 +18462,7 @@
     "originalDigest": "7e2c90f3acbae52352d5f1d6111e5d10e25d24fc",
     "id": 103,
     "_id": "2cd2c344-accc-45b4-9cb0-7d4159e6a630",
-    "_rev": 1764302712661,
+    "_rev": 1769139980606,
     "sections": [
       {
         "code": ""
@@ -18636,7 +18636,7 @@
     "originalDigest": "4b640b40ec14841d38e127132d178a7e9b086aee",
     "id": 104,
     "_id": "c29bf60f-447b-4ed2-a458-43a5469e376b",
-    "_rev": 1764302712670,
+    "_rev": 1769139980615,
     "sections": [
       {
         "code": ""
@@ -18810,7 +18810,7 @@
     "originalDigest": "a82476b876baa7288524e84447eb45437efb5190",
     "id": 105,
     "_id": "746d3ddf-ea8e-40d7-a0f3-f970cfc5d998",
-    "_rev": 1764302712831,
+    "_rev": 1769139980624,
     "sections": [
       {
         "code": ""
@@ -18984,7 +18984,7 @@
     "originalDigest": "8acc0ef628a082b847e50c7438bc738b97940c1d",
     "id": 106,
     "_id": "629fe4bb-2bdb-4e1c-a3b9-9103596e49c0",
-    "_rev": 1767535325941,
+    "_rev": 1769139980632,
     "sections": [
       {
         "code": ""
@@ -19160,7 +19160,7 @@
     "originalDigest": "4c61b332dbe172e9c5e594ee311578e59b289f5e",
     "id": 107,
     "_id": "2718d8c9-f105-4952-8798-d7e268e7f33d",
-    "_rev": 1764302712866,
+    "_rev": 1769139980643,
     "sections": [
       {
         "code": ""
@@ -19334,7 +19334,7 @@
     "originalDigest": "59f39dc3fa224b1492d2b487db9bbf8291a388b5",
     "id": 108,
     "_id": "0142033b-8041-491a-bb78-83de1a38084b",
-    "_rev": 1764302712878,
+    "_rev": 1769139980654,
     "sections": [
       {
         "code": ""
@@ -19343,7 +19343,7 @@
     "etag": "W/\"829be903c126cf4592e5e490073e7705e381f8933829b4269cd3c2acfc40303d\""
   },
   {
-    "enabled": true,
+    "enabled": false,
     "name": "Shinigami Eyes Catppuccin",
     "description": "Soothing pastel theme for Shinigami Eyes",
     "author": "Catppuccin",
@@ -19508,7 +19508,7 @@
     "originalDigest": "ba41444b5678a33c467410b2e8a8c7f7b6c0145f",
     "id": 109,
     "_id": "49c24228-8054-4762-aa44-ec4ee1b0f9a8",
-    "_rev": 1768826948536,
+    "_rev": 1769140004237,
     "sections": [
       {
         "code": ""
@@ -19682,7 +19682,7 @@
     "originalDigest": "60e45adc42992dbf393b60fe78d5cca57a8c2c86",
     "id": 110,
     "_id": "7bfba2bd-e8f9-41a4-b10d-80dfcb7f3aea",
-    "_rev": 1767535327060,
+    "_rev": 1769139980670,
     "sections": [
       {
         "code": ""
@@ -19866,7 +19866,7 @@
     "originalDigest": "cf6ed853b21cae961ec32bc393f41ab8b4fbed7f",
     "id": 111,
     "_id": "ea1c3287-2bdd-4d51-bf41-f6cd38152d31",
-    "_rev": 1764302712906,
+    "_rev": 1769139980681,
     "sections": [
       {
         "code": ""
@@ -20040,7 +20040,7 @@
     "originalDigest": "1bbf7618b4220db69df1cf023fdf3461bc7fe99b",
     "id": 112,
     "_id": "2c57548f-39ef-4e3c-899a-db2c0c2bd579",
-    "_rev": 1764302712927,
+    "_rev": 1769139980692,
     "sections": [
       {
         "code": ""
@@ -20214,7 +20214,7 @@
     "originalDigest": "f3fba98ad031a7428e8271089027d104b571fc22",
     "id": 113,
     "_id": "35a8bdfd-bb7b-4d5b-8597-2818e6486b77",
-    "_rev": 1764302712945,
+    "_rev": 1769139980706,
     "sections": [
       {
         "code": ""
@@ -20388,7 +20388,7 @@
     "originalDigest": "82b794573f93623a88c6bac23fe6b6721fd18e1a",
     "id": 114,
     "_id": "b28ac642-b376-45c6-a138-c100f2c93d0b",
-    "_rev": 1764302712957,
+    "_rev": 1769139980716,
     "sections": [
       {
         "code": ""
@@ -20562,7 +20562,7 @@
     "originalDigest": "9a9a708cef3c4e9ad913cb3057c859bda85bc517",
     "id": 115,
     "_id": "21f97271-cae4-4ed9-b680-9899655052d7",
-    "_rev": 1764302712968,
+    "_rev": 1769139980724,
     "sections": [
       {
         "code": ""
@@ -20736,7 +20736,7 @@
     "originalDigest": "f2361742f66ee49b9b82f1c8f29d6de3bcf72e93",
     "id": 116,
     "_id": "df4c1943-fac2-461e-9056-08c190a29fff",
-    "_rev": 1764302712977,
+    "_rev": 1769139980734,
     "sections": [
       {
         "code": ""
@@ -20910,7 +20910,7 @@
     "originalDigest": "ce1568a451d1b92438b9271ed1fcb87a4298d02a",
     "id": 117,
     "_id": "ca7e1114-7fcc-4a26-9425-e042918c638b",
-    "_rev": 1764302713004,
+    "_rev": 1769139980759,
     "sections": [
       {
         "code": ""
@@ -21084,7 +21084,7 @@
     "originalDigest": "658f967ceb7b15c7e01745c559461193ff1b54f4",
     "id": 118,
     "_id": "9f17c335-d132-4f4b-bbc7-9fafc6122b7b",
-    "_rev": 1764302713019,
+    "_rev": 1769139980776,
     "sections": [
       {
         "code": ""
@@ -21602,7 +21602,7 @@
     "originalDigest": "7721c63b3b42279eeac67b6771afa0d4b97bb395",
     "id": 119,
     "_id": "09c40ffb-265b-49e4-ae5c-47b4cae97811",
-    "_rev": 1764302713033,
+    "_rev": 1769139980790,
     "sections": [
       {
         "code": ""
@@ -21776,7 +21776,7 @@
     "originalDigest": "b655dab5c6556fac2f4237efeb77b28ab3bd5f3e",
     "id": 120,
     "_id": "8ed12705-10c7-4270-aadc-02e8bb9acc46",
-    "_rev": 1764302713520,
+    "_rev": 1769139980806,
     "sections": [
       {
         "code": ""
@@ -21950,7 +21950,7 @@
     "originalDigest": "27008c46236d3c29eb1a24a9053dbefce9bc4e25",
     "id": 121,
     "_id": "2a0b4b44-2ca9-4a04-a0a7-20f3ec0e9b3a",
-    "_rev": 1764302713850,
+    "_rev": 1769139980835,
     "sections": [
       {
         "code": ""
@@ -22124,7 +22124,7 @@
     "originalDigest": "cfa506ac2f85cd0f1798d2aa5170df38cd165266",
     "id": 122,
     "_id": "e37a7f1d-80be-4839-af60-9d1ba9228905",
-    "_rev": 1764302713861,
+    "_rev": 1769139980843,
     "sections": [
       {
         "code": ""
@@ -22298,7 +22298,7 @@
     "originalDigest": "3a70043ffb9f9304c1d4bf6fe8fa6ded0489e933",
     "id": 123,
     "_id": "cfbf8874-74fe-4bf1-92ba-f7b9a500b70c",
-    "_rev": 1764302713869,
+    "_rev": 1769139980851,
     "sections": [
       {
         "code": ""
@@ -22472,7 +22472,7 @@
     "originalDigest": "1b5b257d864d1abcc4edc86f278eba895c6a209f",
     "id": 124,
     "_id": "6e312415-42c3-4a12-ad8b-d68cc46c8c4f",
-    "_rev": 1764302713887,
+    "_rev": 1769139980866,
     "sections": [
       {
         "code": ""
@@ -22646,7 +22646,7 @@
     "originalDigest": "622755c5cacae0cd26ee9ddc8de2e7fa88548caf",
     "id": 125,
     "_id": "227adf94-1f93-4a7f-b1ab-397da59e4505",
-    "_rev": 1764302713897,
+    "_rev": 1769139980876,
     "sections": [
       {
         "code": ""
@@ -22820,7 +22820,7 @@
     "originalDigest": "669c9995c0949c5c334b48cd5681fe8adcc6df6e",
     "id": 126,
     "_id": "14644fb0-9693-4a35-be69-205d427042ef",
-    "_rev": 1764302713907,
+    "_rev": 1769139980884,
     "sections": [
       {
         "code": ""
@@ -22994,7 +22994,7 @@
     "originalDigest": "f1ca42a5290a13db1341bdcd40048036c13082a2",
     "id": 127,
     "_id": "076b67cc-5c76-4a23-ae2c-4f21c0bfa541",
-    "_rev": 1764302713916,
+    "_rev": 1769139980892,
     "sections": [
       {
         "code": ""
@@ -23167,7 +23167,7 @@
     "sourceCode": "/* ==UserStyle==\n@name alacritty.org Catppuccin\n@namespace github.com/catppuccin/userstyles/styles/alacritty.org\n@homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/alacritty.org\n@version 2025.11.07\n@updateURL https://github.com/catppuccin/userstyles/raw/main/styles/alacritty.org/catppuccin.user.less\n@supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Aalacritty.org\n@description Soothing pastel theme for alacritty.org\n@author Catppuccin\n@license MIT\n\n@preprocessor less\n@var select lightFlavor \"Light Flavor\" [\"latte:Latte*\", \"frappe:Frappé\", \"macchiato:Macchiato\", \"mocha:Mocha\"]\n@var select darkFlavor \"Dark Flavor\" [\"latte:Latte\", \"frappe:Frappé\", \"macchiato:Macchiato\", \"mocha:Mocha*\"]\n@var select accentColor \"Accent\" [\"rosewater:Rosewater\", \"flamingo:Flamingo\", \"pink:Pink\", \"mauve:Mauve*\", \"red:Red\", \"maroon:Maroon\", \"peach:Peach\", \"yellow:Yellow\", \"green:Green\", \"teal:Teal\", \"blue:Blue\", \"sapphire:Sapphire\", \"sky:Sky\", \"lavender:Lavender\", \"subtext0:Gray\"]\n==/UserStyle== */\n\n@import \"https://userstyles.catppuccin.com/lib/lib.less\";\n\n@-moz-document domain(\"alacritty.org\") {\n  :root {\n    @media (prefers-color-scheme: light) {\n      #catppuccin(@lightFlavor);\n    }\n    @media (prefers-color-scheme: dark) {\n      #catppuccin(@darkFlavor);\n    }\n  }\n\n  #catppuccin(@flavor) {\n    #lib.palette();\n    #lib.defaults();\n\n    body {\n      color: @text !important;\n      background-color: @base !important;\n    }\n    a {\n      color: @accent !important;\n    }\n    header {\n      background-color: @mantle !important;\n      border-bottom-color: @surface0 !important;\n      nav > a {\n        color: @text !important;\n      }\n    }\n    em {\n      color: @green !important;\n    }\n    strong, strong > a {\n      color: @blue !important;\n    }\n    #pick-version select {\n      color: @text !important;\n      background-color: @surface0;\n      border-color: @overlay0;\n    }\n    h1 {\n      color: @accent !important;\n    }\n    a:not([name]) {\n      text-shadow: none !important;\n    }\n    code {\n      background-color: @surface0;\n    }\n    video {\n      background-color: @overlay0 !important;\n    }\n    img:not(img#logo-img) {\n      border-color: @overlay0 !important;\n    }\n    img#logo-img {\n      border-color: @mantle !important;\n    }\n    kbd {\n      background-color: @surface1 !important;\n      border-color: @overlay0 !important;\n    }\n  }\n}\n",
     "originalDigest": "eef7ad78926640e7f52f05b991c318e30a201ed8",
     "_id": "dc0d5498-2c3e-4264-8c77-d089fbdff094",
-    "_rev": 1764302711595,
+    "_rev": 1769139980904,
     "sections": [
       {
         "code": ""
@@ -23184,21 +23184,21 @@
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name        Central da Toca - Catppuccin Mocha\n@namespace   https://github.com/openstyles/stylus\n@version     1.1.0\n@description Dark, cozy Catppuccin Mocha theme for centraldatoca.com.br (Newspaper theme)\n@author      glaudston (with Grok help)\n@license     MIT\n==/UserStyle== */\n@-moz-document url-prefix(\"https://www.centraldatoca.com.br/\") {\n\t/* ────────────────────────────────────────────────\n     Catppuccin Mocha palette\n     ──────────────────────────────────────────────── */\n\t:root {\n\t\t--rosewater: #f5e0dc;\n\t\t--flamingo: #f2cdcd;\n\t\t--pink: #f5c2e7;\n\t\t--mauve: #cba6f7;\n\t\t--red: #f38ba8;\n\t\t--maroon: #eba0ac;\n\t\t--peach: #fab387;\n\t\t--yellow: #f9e2af;\n\t\t--green: #a6e3a1;\n\t\t--teal: #94e2d5;\n\t\t--sky: #89dceb;\n\t\t--sapphire: #74c7ec;\n\t\t--blue: #89b4fa;\n\t\t--lavender: #b4befe;\n\t\t--text: #cdd6f4;\n\t\t--subtext1: #bac2de;\n\t\t--subtext0: #a6adc8;\n\t\t--overlay2: #9399b2;\n\t\t--overlay1: #7f849c;\n\t\t--overlay0: #6c7086;\n\t\t--surface2: #585b70;\n\t\t--surface1: #45475a;\n\t\t--surface0: #313244;\n\t\t--base: #1e1e2e;\n\t\t--mantle: #181825;\n\t\t--crust: #11111b;\n\t\t/* show all links */\n\t\t--custom-color-3: var(--lavender) !important;\n\t\t/* article a:hover colors */\n\t\t--custom-color-4: var(--lavender) !important;\n\t\t/* h3.entry-title.td-module-title a:hover */\n\t\t--custom-color-5: var(--blue) !important;\n\t\t/* header hamburger icon */\n\t\t--custom-color-8: var(--blue) !important;\n\t\t/* header search icon */\n\t\t--custom-color-6: var(--mantle) !important;\n\t\t/* usually header/menu bar bg */\n\t\t--custom-color-7: var(--mantle) !important;\n\t\t/* alternate body sections */\n\t\t--accent-color: var(--surface1) !important;\n\t\t--theme-color: var(--blue) !important;\n\t\t--base-unit: 1em;\n\t\t--space-md: calc(1.25 * var(--base-unit));\n\t\t--space-xl: calc(2.25 * var(--base-unit));\n\t}\n\n\t/* ────────────────────────────────────────────────\n     Force backgrounds (Newspaper theme)\n     ──────────────────────────────────────────────── */\n\thtml,\n\tbody,\n\t#td-outer-wrap,\n\t.td-theme-wrap,\n\t.td-outer-wrap.td-theme-wrap,\n\t.tdc_zone,\n\t.td-pb-row,\n\t.vc_row.td-pb-row,\n\t.td-main-content,\n\t.tdc-content,\n\t.td-main-content-wrap.td-main-page-wrap.td-container-wrap,\n\t.tdc-content-wrap {\n\t\tbackground: var(--base) !important;\n\t}\n\t.td-main-content-wrap.td-main-page-wrap.td-container-wrap {\n\t\tpadding: var(--space-xl) 0;\n\t}\n\n\t#tdi_140 div.vc_row,\n\t#tdi_152 div.vc_row {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Header */\n\t.td-header-template-wrap,\n\t/* \t.td-header-wrap, */\n\t/* \t.td-header-mobile-wrap, */\n\t/* \t.td-header-menu-wrap, */\n\t/* \t.td-header-menu-wrap-full, */\n\t/* \t.tdc_zone.tdc-header-zone, */\n\t/* \t.tdc_zone:first-of-type, */\n\t/* \t.td-header-header, */\n\t/* \t.td-header-top-menu-full, */\n\t/* \t.td-header-menu-wrap.td-affix, */\n\theader {\n\t\tbackground: var(--base) !important;\n\t\tborder-bottom: 2px solid color-mix(in srgb, var(--crust), var(--base) 25%);\n\t}\n\n\t/* Header inner elements → transparent so they inherit */\n\t.td-header-template-wrap .tdc_zone,\n\t.td-header-template-wrap .td-pb-row,\n\t.td-header-template-wrap .vc_row,\n\t.td-header-template-wrap [class*=\"tdi_\"],\n\t.td-header-sp-top-menu,\n\t.td-header-logo,\n\t.td-header-menu-socials,\n\t.td-header-gradient {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Footer (also --mantle) */\n\t.td-footer-wrapper,\n\t.td-footer-container,\n\t.td-footer-bottom-full,\n\t.td-footer-extra,\n\t.td-footer-wrap,\n\t.td-footer-template-wrap,\n\tfooter,\n\t.site-footer,\n\t#colophon {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t.td-footer-wrap .vc_row.td-pb-row {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Kill pseudo overlays in header/footer */\n\t.td-header-template-wrap::before,\n\t.td-header-template-wrap::after,\n\t.td-footer-wrapper::before,\n\t.td-footer-wrapper::after,\n\tbody > .td-menu-background,\n\t.td-search-background {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Base body tweaks */\n\tbody {\n\t\tbackground: var(--base) !important;\n\t\tcolor: var(--text) !important;\n\t\tfont-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", sans-serif !important;\n\t}\n\n\t/* Breadcrumbs */\n\t.tdb_breadcrumbs a,\n\t.tdb-breadcrumbs a {\n\t\tcolor: var(--surface2) !important;\n\t}\n\n\t.tdb-bread-sep.td-icon-right {\n\t\tcolor: var(--surface0) !important;\n\t}\n\n\t/* ────────────────────────────────────────────────\n     Typography & accents\n     ──────────────────────────────────────────────── */\n\th1,\n\th2,\n\th3,\n\th4,\n\th5,\n\th6 {\n\t\tcolor: var(--blue) !important;\n\t}\n\n\th1 a,\n\th2 a,\n\th3 a {\n\t\tcolor: var(--text) !important;\n\t}\n\n\tp,\n\tli {\n\t\tcolor: var(--lavender) !important;\n\t}\n\n\t/* article */\n\t.tdi_122 .tdb-block-inner > p {\n\t\tcolor: var(--text) !important;\n\t}\n\n\ttime,\n\t.date,\n\t.author,\n\t.category,\n\t.meta,\n\tsmall,\n\t.post-date,\n\t.byline {\n\t\tcolor: var(--subtext0) !important;\n\t}\n\n\ta {\n\t\tcolor: var(--blue) !important;\n\t\ttransition: color 0.2s ease;\n\t}\n\ta:hover,\n\ta:focus {\n\t\tcolor: var(--lavender) !important;\n\t\ttext-decoration: underline !important;\n\t}\n\n\t/* Navigation / Menu */\n\tnav,\n\t.main-navigation,\n\t.menu,\n\t.nav-menu,\n\t.menu-item a,\n\t.nav-link {\n\t\tcolor: var(--text) !important;\n\t}\n\t.menu-item a:hover,\n\t.current-menu-item > a,\n\t.current_page_item > a {\n\t\tcolor: var(--blue) !important;\n\t\t/*     background: var(--surface0) !important; */\n\t}\n\n\t/* Search */\n\tinput[type=\"search\"],\n\t.search-field,\n\t#td-header-search-mob {\n\t\tbackground: var(--surface1) !important;\n\t\tcolor: var(--text) !important;\n\t\tborder: 1px solid var(--surface2) !important;\n\t\tborder-radius: 6px !important;\n\t}\n\tinput::placeholder {\n\t\tcolor: var(--overlay0) !important;\n\t}\n\n\t/* Buttons */\n\t.nav-button,\n\t.prev-button,\n\t.next-button {\n\t\tcolor: var(--mauve) !important;\n\t}\n\t.nav-button:disabled {\n\t\tcolor: var(--surface1) !important;\n\t}\n\t.btn:hover,\n\tbutton:hover,\n\t.read-more:hover {\n\t\tcolor: var(--green) !important;\n\t}\n\n\t/* Cards / Posts */\n\t.post,\n\t.article,\n\t.noticia,\n\t.destaque,\n\t.card,\n\t.ultimas-noticias article,\n\t.post-teaser,\n\t.bloco-noticia {\n\t\tbackground: var(--surface0) !important;\n\t\tborder: 1px solid var(--surface1) !important;\n\t\tborder-radius: 8px !important;\n\t\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;\n\t}\n\n\t/* Logo */\n\t.tdb-logo-img-wrap img {\n\t\tfilter: brightness(0.95) contrast(.05) sepia(1) hue-rotate(195deg) saturate(8.5) !important;\n\t\ttransition: filter 0.3s ease !important;\n\t}\n\n\t.tdb-logo-img-wrap {\n\t\theight: 64px !important;\n\t\toverflow: hidden;\n\t}\n\n\t/* ----- Ads & banners - Sobre revisão ----- */\n\t/* \tdiv#tdi_98,\n\tdiv#tdi_135, */\n\tdiv#footer_01,\n\t.td-adspot-title,\n\t[id*=horizontal_] {\n\t\tdisplay: none !important;\n\t}\n\n\t/* Scrollbar & selection (Firefox-friendly) */\n\t* {\n\t\tscrollbar-color: var(--surface2) var(--mantle) !important;\n\t\tscrollbar-width: thin !important;\n\t}\n\t::selection {\n\t\tbackground: var(--mauve) !important;\n\t\tcolor: var(--crust) !important;\n\t}\n\n\t/* Extra WP blocks */\n\t.has-background {\n\t\tbackground: var(--surface1) !important;\n\t}\n\t.has-text-color {\n\t\tcolor: var(--text) !important;\n\t}\n\n\t/* ────────────────────────────────────────────────\n   Catppuccin Mocha table styling – Campeonato Mineiro page\n   ──────────────────────────────────────────────── */\n\t/* Table wrapper / container */\n\t.td_block_wrap table,\n\t[class^=\"tdi_\"] table,\n\ttable,\n\t.wp-block-table,\n\t.td-table-wrap,\n\t.td-module-wrap table {\n\t\tbackground: var(--mantle) !important;\n\t\tborder: none !important;\n\t\twidth: 100% !important;\n\t\tmargin: .2rem 0 !important;\n\t\toverflow: hidden !important;\n\t}\n\n\t/* Group wrapper */\n\t.group-container .league-table-container {\n\t\tpadding: var(--space-md);\n\t\tbackground: var(--mantle);\n\t\tborder-radius: 8px !important;\n\t}\n\n\t/* Table head */\n\ttable thead,\n\ttable th {\n\t\tbackground: var(--mantle) !important;\n\t\tcolor: var(--surface1) !important;\n\t\tfont-weight: 600 !important;\n\t\ttext-align: center !important;\n\t\tpadding: 12px 10px !important;\n\t\tborder-bottom: 1px solid var(--surface0) !important;\n\t}\n\n\t.league-table th h2 {\n\t\tcolor: var(--surface1) !important;\n\t}\n\n\t/* Rows – odd rows */\n\ttable tbody tr {\n\t\tbackground: var(--mantle) !important;\n\t\tcolor: var(--text) !important;\n\t\ttransition: background 0.15s ease !important;\n\t}\n\n\t/* Zebra striping – even rows */\n\ttable tbody tr:nth-child(even) {\n\t\tbackground: color-mix(in srgb, var(--mantle), var(--crust) 50%) !important;\n\t}\n\n\t/* Hover lift – subtle surface1 for both odd/even */\n\ttable tbody tr:hover {\n\t\tbackground: color-mix(in srgb, var(--mantle), var(--surface0) 20%) !important;\n\t}\n\n\t/* Cells – padding, alignment, borders */\n\ttable td {\n\t\tpadding: 12px 10px !important;\n\t\ttext-align: center !important;\n\t\tvertical-align: middle !important;\n\t\tbackground: inherit!important;\n\t\tborder: none !important;\n\t}\n\n\t/* First column (position/team) – left align + accent */\n\ttable td:first-child {\n\t\ttext-align: left !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team (V)Wins column */\n\ttable td:nth-child(4) {\n\t\tcolor: var(--green) !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team (D)Loses column */\n\ttable td:nth-child(6) {\n\t\tcolor: var(--red) !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team J/E column */\n\ttable td:nth-child(3),\n\ttable td:nth-child(5) {\n\t\tcolor: var(--overlay2) !important;\n\t\t/* your chosen color */\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team GP/GC/SG column */\n\ttable td:nth-child(7),\n\ttable td:nth-child(8),\n\ttable td:nth-child(9) {\n\t\tcolor: var(--surface2) !important;\n\t\t/* your chosen color */\n\t\tfont-weight: 500 !important;\n\t}\n\n\n\t/* Team/position column */\n\ttable td:nth-child(2) {\n\t\tcolor: var(--lavender) !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Points column – green highlight */\n\ttable td:last-child {\n\t\tcolor: var(--lavender) !important;\n\t\tfont-weight: 300 !important;\n\t}\n\n\t/* Bottom rounding + no last border */\n\ttable tbody tr:last-child td {\n\t\tborder-bottom: none !important;\n\t}\n\n\t/* Kill inline/theme overrides */\n\ttable[style],\n\tth[style],\n\ttd[style] {\n\t\tbackground: inherit !important;\n\t\tcolor: inherit !important;\n\t\tborder-color: var(--surface1) !important;\n\t}\n\n\t/* Team logos */\n\ttable img,\n\t.tabela-classificacao img,\n\t.team-logo {\n\t\tborder: none !important;\n\t\tvertical-align: middle !important;\n\t\tmargin-right: 8px !important;\n\t\twidth: 24px !important;\n\t\theight: 24px !important;\n\t}\n\n\t/* LEGENDS */\n\t/* Team position Legends */\n\t.position-indicator.color-gold {\n\t\tbackground-color: var(--green);\n\t}\n\t.position-indicator.color-blue {\n\t\tbackground-color: var(--flamingo);\n\t}\n\t.position-indicator.color-green {\n\t\tbackground-color: var(--blue);\n\t}\n\t.position-indicator.color-red {\n\t\tbackground-color: var(--red);\n\t}\n\t.position-indicator.color-default {\n\t\tbackground-color: var(--overlay0);\n\t}\n\t.legend-abbr-letter {\n\t\tcolor: var(--lavender);\n\t}\n\t.legend-text {\n\t\tcolor: var(--text);\n\t}\n\n\t/* Match List */\n\th3.rounds-title {\n\t\tcolor: var(--lavender) !important;\n\t}\n\t.league-table tbody,\n\t.match-teams {\n\t\tcolor: var(--text);\n\t}\n\n\t/* Raking content */\n\t.ranking-header {\n\t\tborder-bottom: 1px solid var(--surface2);\n\t}\n\t.player-list .player-item {\n\t\tborder-bottom: 1px solid var(--surface0);\n\t}\n\n\t.player-list .team-logo,\n\t.player-list .team-logo img,\n\t.player-list .player-avatar,\n\t.player-list .player-avatar img {\n\t\tborder: 0 !important;\n\t\tbackground-color: var(--crust);\n\t}\n\n\t.player-list .team-logo,\n\t.player-list .team-logo img {\n\t\tborder: 0 !important;\n\t\tbackground-color: var(--base);\n\t}\n\n\t.player-list .team-logo {\n\t\tpadding: 4px;\n\t}\n\n\t.player-avatar img[src*=\"default.svg\"] {\n\t\t/*   filter: brightness(0.24) contrast(1.45); */\n\t\tcontent: url('https://raw.githubusercontent.com/gldtn/cruzeiro/master/default_avatar.svg') !important;\n\t\twidth: 64px !important;\n\t\t/* original size */\n\t\theight: 64px !important;\n\t}\n\n\t.ranking-header h3,\n\t.player-list .player-item .player-info .player-position {\n\t\tcolor: var(--lavender) !important;\n\t}\n\n\t.player-list .player-item .player-goals,\n\t.player-list .player-item .player-info .player-details .player-name {\n\t\tcolor: var(--blue) !important;\n\t}\n\n\t.player-list .player-item .player-info .player-details .player-role {\n\t\tcolor: var(--surface1)\n\t}\n}",
+    "sourceCode": "/* ==UserStyle==\n@name        Central da Toca - Catppuccin Mocha\n@namespace   https://github.com/openstyles/stylus\n@version     1.1.0\n@description Dark, cozy Catppuccin Mocha theme for centraldatoca.com.br (Newspaper theme)\n@author      glaudston\n@license     MIT\n==/UserStyle== */\n@-moz-document url-prefix(\"https://www.centraldatoca.com.br/\") {\n\t/* ────────────────────────────────────────────────\n     Catppuccin Mocha palette\n     ──────────────────────────────────────────────── */\n\t:root {\n\t\t--rosewater: #f5e0dc;\n\t\t--flamingo: #f2cdcd;\n\t\t--pink: #f5c2e7;\n\t\t--mauve: #cba6f7;\n\t\t--red: #f38ba8;\n\t\t--maroon: #eba0ac;\n\t\t--peach: #fab387;\n\t\t--yellow: #f9e2af;\n\t\t--green: #a6e3a1;\n\t\t--teal: #94e2d5;\n\t\t--sky: #89dceb;\n\t\t--sapphire: #74c7ec;\n\t\t--blue: #89b4fa;\n\t\t--lavender: #b4befe;\n\t\t--text: #cdd6f4;\n\t\t--subtext1: #bac2de;\n\t\t--subtext0: #a6adc8;\n\t\t--overlay2: #9399b2;\n\t\t--overlay1: #7f849c;\n\t\t--overlay0: #6c7086;\n\t\t--surface2: #585b70;\n\t\t--surface1: #45475a;\n\t\t--surface0: #313244;\n\t\t--base: #1e1e2e;\n\t\t--mantle: #181825;\n\t\t--crust: #11111b;\n\t\t/* show all links */\n\t\t--custom-color-3: var(--lavender) !important;\n\t\t/* article a:hover colors */\n\t\t--custom-color-4: var(--lavender) !important;\n\t\t/* h3.entry-title.td-module-title a:hover */\n\t\t--custom-color-5: var(--blue) !important;\n\t\t/* header hamburger icon */\n\t\t--custom-color-8: var(--blue) !important;\n\t\t/* header search icon */\n\t\t--custom-color-6: var(--mantle) !important;\n\t\t/* usually header/menu bar bg */\n\t\t--custom-color-7: var(--mantle) !important;\n\t\t/* alternate body sections */\n\t\t--accent-color: var(--surface1) !important;\n\t\t--theme-color: var(--blue) !important;\n\t\t--base-unit: 1em;\n\t\t--space-md: calc(1.25 * var(--base-unit));\n\t\t--space-xl: calc(2.25 * var(--base-unit));\n\t}\n\n\t/* ────────────────────────────────────────────────\n     Force backgrounds (Newspaper theme)\n     ──────────────────────────────────────────────── */\n\thtml,\n\tbody,\n\t#td-outer-wrap,\n\t.td-theme-wrap,\n\t.td-outer-wrap.td-theme-wrap,\n\t.tdc_zone,\n\t.td-pb-row,\n\t.vc_row.td-pb-row,\n\t.td-main-content,\n\t.tdc-content,\n\t.td-main-content-wrap.td-main-page-wrap.td-container-wrap,\n\t.tdc-content-wrap {\n\t\tbackground: var(--base) !important;\n\t}\n\t.td-main-content-wrap.td-main-page-wrap.td-container-wrap {\n\t\tpadding: var(--space-xl) 0;\n\t}\n\n\t#tdi_140 div.vc_row,\n\t#tdi_152 div.vc_row {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Header */\n\t.td-header-template-wrap,\n\t/* \t.td-header-wrap, */\n\t/* \t.td-header-mobile-wrap, */\n\t/* \t.td-header-menu-wrap, */\n\t/* \t.td-header-menu-wrap-full, */\n\t/* \t.tdc_zone.tdc-header-zone, */\n\t/* \t.tdc_zone:first-of-type, */\n\t/* \t.td-header-header, */\n\t/* \t.td-header-top-menu-full, */\n\t/* \t.td-header-menu-wrap.td-affix, */\n\theader {\n\t\tbackground: var(--base) !important;\n\t\tborder-bottom: 2px solid color-mix(in srgb, var(--crust), var(--base) 25%);\n\t}\n\n\t/* Header inner elements → transparent so they inherit */\n\t.td-header-template-wrap .tdc_zone,\n\t.td-header-template-wrap .td-pb-row,\n\t.td-header-template-wrap .vc_row,\n\t.td-header-template-wrap [class*=\"tdi_\"],\n\t.td-header-sp-top-menu,\n\t.td-header-logo,\n\t.td-header-menu-socials,\n\t.td-header-gradient {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Footer (also --mantle) */\n\t.td-footer-wrapper,\n\t.td-footer-container,\n\t.td-footer-bottom-full,\n\t.td-footer-extra,\n\t.td-footer-wrap,\n\t.td-footer-template-wrap,\n\tfooter,\n\t.site-footer,\n\t#colophon {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t.td-footer-wrap .vc_row.td-pb-row {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Kill pseudo overlays in header/footer */\n\t.td-header-template-wrap::before,\n\t.td-header-template-wrap::after,\n\t.td-footer-wrapper::before,\n\t.td-footer-wrapper::after,\n\tbody > .td-menu-background,\n\t.td-search-background {\n\t\tbackground: var(--mantle) !important;\n\t}\n\n\t/* Base body tweaks */\n\tbody {\n\t\tbackground: var(--base) !important;\n\t\tcolor: var(--text) !important;\n\t\tfont-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", sans-serif !important;\n\t}\n\n\t/* Breadcrumbs */\n\t.tdb_breadcrumbs a,\n\t.tdb-breadcrumbs a {\n\t\tcolor: var(--surface2) !important;\n\t}\n\n\t.tdb-bread-sep.td-icon-right {\n\t\tcolor: var(--surface0) !important;\n\t}\n\n\t/* ────────────────────────────────────────────────\n     Typography & accents\n     ──────────────────────────────────────────────── */\n\th1,\n\th2,\n\th3,\n\th4,\n\th5,\n\th6 {\n\t\tcolor: var(--blue) !important;\n\t}\n\n\th1 a,\n\th2 a,\n\th3 a {\n\t\tcolor: var(--text) !important;\n\t}\n\n\tp,\n\tli {\n\t\tcolor: var(--lavender) !important;\n\t}\n\n\t/* article */\n\t.tdi_122 .tdb-block-inner > p {\n\t\tcolor: var(--text) !important;\n\t}\n\n\ttime,\n\t.date,\n\t.author,\n\t.category,\n\t.meta,\n\tsmall,\n\t.post-date,\n\t.byline {\n\t\tcolor: var(--subtext0) !important;\n\t}\n\n\ta {\n\t\tcolor: var(--blue) !important;\n\t\ttransition: color 0.2s ease;\n\t}\n\ta:hover,\n\ta:focus {\n\t\tcolor: var(--lavender) !important;\n\t\ttext-decoration: underline !important;\n\t}\n\n\t/* Navigation / Menu */\n\tnav,\n\t.main-navigation,\n\t.menu,\n\t.nav-menu,\n\t.menu-item a,\n\t.nav-link {\n\t\tcolor: var(--text) !important;\n\t}\n\t.menu-item a:hover,\n\t.current-menu-item > a,\n\t.current_page_item > a {\n\t\tcolor: var(--blue) !important;\n\t\t/*     background: var(--surface0) !important; */\n\t}\n\n\t/* Search */\n\tinput[type=\"search\"],\n\t.search-field,\n\t#td-header-search-mob {\n\t\tbackground: var(--surface1) !important;\n\t\tcolor: var(--text) !important;\n\t\tborder: 1px solid var(--surface2) !important;\n\t\tborder-radius: 6px !important;\n\t}\n\tinput::placeholder {\n\t\tcolor: var(--overlay0) !important;\n\t}\n\n\t/* Buttons */\n\t.nav-button,\n\t.prev-button,\n\t.next-button {\n\t\tcolor: var(--mauve) !important;\n\t}\n\t.nav-button:disabled {\n\t\tcolor: var(--surface1) !important;\n\t}\n\t.btn:hover,\n\tbutton:hover,\n\t.read-more:hover {\n\t\tcolor: var(--green) !important;\n\t}\n\n\t/* Cards / Posts */\n\t.post,\n\t.article,\n\t.noticia,\n\t.destaque,\n\t.card,\n\t.ultimas-noticias article,\n\t.post-teaser,\n\t.bloco-noticia {\n\t\tbackground: var(--surface0) !important;\n\t\tborder: 1px solid var(--surface1) !important;\n\t\tborder-radius: 8px !important;\n\t\tbox-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;\n\t}\n\n\t/* Logo */\n\t.tdb-logo-img-wrap img {\n\t\tfilter: brightness(0.95) contrast(.05) sepia(1) hue-rotate(195deg) saturate(8.5) !important;\n\t\ttransition: filter 0.3s ease !important;\n\t}\n\n\t.tdb-logo-img-wrap {\n\t\theight: 64px !important;\n\t\toverflow: hidden;\n\t}\n\n\t/* ----- Ads & banners - Sobre revisão ----- */\n\t/* \tdiv#tdi_98,\n\tdiv#tdi_135, */\n\tdiv#footer_01,\n\t.td-adspot-title,\n\t[id*=horizontal_] {\n\t\tdisplay: none !important;\n\t}\n\n\t/* Scrollbar & selection (Firefox-friendly) */\n\t* {\n\t\tscrollbar-color: var(--surface2) var(--mantle) !important;\n\t\tscrollbar-width: thin !important;\n\t}\n\t::selection {\n\t\tbackground: var(--mauve) !important;\n\t\tcolor: var(--crust) !important;\n\t}\n\n\t/* Extra WP blocks */\n\t.has-background {\n\t\tbackground: var(--surface1) !important;\n\t}\n\t.has-text-color {\n\t\tcolor: var(--text) !important;\n\t}\n\n\t/**\n\t * SAMUCA TV ** Video playlist **\n\t */\n\t\n\t/* Video list */\n\t.td_wrapper_video_playlist .td_container_video_playlist {\n\t\tbackground-color: var(--crust);\n\t}\n\t.td_wrapper_video_playlist .td_video_title_and_time {\n\t\tpadding: 0 6px 0 103px;\n\t}\n\t.td_video_title {\n\t\tcolor: var(--overlay0) !important;\n\t}\n\t.td_video_time {\n\t\tcolor: var(--surface0) !important;\n\t\tpadding-top: 4px;\n\t\tfloat: right;\n\t}\n\n\t/* currently playing video */\n\t.td_wrapper_video_playlist .td_video_currently_playing,\n\t.td_wrapper_video_playlist .td_click_video:hover{\n\t\tbackground: color-mix(in srgb, var(--mantle), var(--surface0) 20%) !important;\n\t}\n\t.td_wrapper_video_playlist .td_video_currently_playing .td_video_title {\n\t\tcolor: var(--subtext0) !important;\n\t}\n\t.td_wrapper_video_playlist .td_video_currently_playing .td_video_time {\n\t\tcolor: var(--surface2) !important;\n\t}\n\n\t/* ────────────────────────────────────────────────\n   Catppuccin Mocha table styling – Campeonato Mineiro page\n   ──────────────────────────────────────────────── */\n\t/* Table wrapper / container */\n\t.td_block_wrap table,\n\t[class^=\"tdi_\"] table,\n\ttable,\n\t.wp-block-table,\n\t.td-table-wrap,\n\t.td-module-wrap table {\n\t\tbackground: var(--mantle) !important;\n\t\tborder: none !important;\n\t\twidth: 100% !important;\n\t\tmargin: .2rem 0 !important;\n\t\toverflow: hidden !important;\n\t}\n\n\t/* Group wrapper */\n\t.group-container .league-table-container {\n\t\tpadding: var(--space-md);\n\t\tbackground: var(--mantle);\n\t\tborder-radius: 8px !important;\n\t}\n\n\t/* Table head */\n\ttable thead,\n\ttable th {\n\t\tbackground: var(--mantle) !important;\n\t\tcolor: var(--surface1) !important;\n\t\tfont-weight: 600 !important;\n\t\ttext-align: center !important;\n\t\tpadding: 12px 10px !important;\n\t\tborder-bottom: 1px solid var(--surface0) !important;\n\t}\n\n\t.league-table th h2 {\n\t\tcolor: var(--surface1) !important;\n\t}\n\n\t/* Rows – odd rows */\n\ttable tbody tr {\n\t\tbackground: var(--mantle) !important;\n\t\tcolor: var(--text) !important;\n\t\ttransition: background 0.15s ease !important;\n\t}\n\n\t/* Zebra striping – even rows */\n\ttable tbody tr:nth-child(even) {\n\t\tbackground: color-mix(in srgb, var(--mantle), var(--crust) 50%) !important;\n\t}\n\n\t/* Hover lift – subtle surface1 for both odd/even */\n\ttable tbody tr:hover {\n\t\tbackground: color-mix(in srgb, var(--mantle), var(--surface0) 20%) !important;\n\t}\n\n\t/* Cells – padding, alignment, borders */\n\ttable td {\n\t\tpadding: 12px 10px !important;\n\t\ttext-align: center !important;\n\t\tvertical-align: middle !important;\n\t\tbackground: inherit!important;\n\t\tborder: none !important;\n\t}\n\n\t/* First column (position/team) – left align + accent */\n\ttable td:first-child {\n\t\ttext-align: left !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team (V)Wins column */\n\ttable td:nth-child(4) {\n\t\tcolor: var(--green) !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team (D)Loses column */\n\ttable td:nth-child(6) {\n\t\tcolor: var(--red) !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team J/E column */\n\ttable td:nth-child(3),\n\ttable td:nth-child(5) {\n\t\tcolor: var(--overlay2) !important;\n\t\t/* your chosen color */\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Team GP/GC/SG column */\n\ttable td:nth-child(7),\n\ttable td:nth-child(8),\n\ttable td:nth-child(9) {\n\t\tcolor: var(--surface2) !important;\n\t\t/* your chosen color */\n\t\tfont-weight: 500 !important;\n\t}\n\n\n\t/* Team/position column */\n\ttable td:nth-child(2) {\n\t\tcolor: var(--lavender) !important;\n\t\tfont-weight: 500 !important;\n\t}\n\n\t/* Points column – green highlight */\n\ttable td:last-child {\n\t\tcolor: var(--lavender) !important;\n\t\tfont-weight: 300 !important;\n\t}\n\n\t/* Bottom rounding + no last border */\n\ttable tbody tr:last-child td {\n\t\tborder-bottom: none !important;\n\t}\n\n\t/* Kill inline/theme overrides */\n\ttable[style],\n\tth[style],\n\ttd[style] {\n\t\tbackground: inherit !important;\n\t\tcolor: inherit !important;\n\t\tborder-color: var(--surface1) !important;\n\t}\n\n\t/* Team logos */\n\ttable img,\n\t.tabela-classificacao img,\n\t.team-logo {\n\t\tborder: none !important;\n\t\tvertical-align: middle !important;\n\t\tmargin-right: 8px !important;\n\t\twidth: 24px !important;\n\t\theight: 24px !important;\n\t}\n\n\t/* LEGENDS */\n\t/* Team position Legends */\n\t.position-indicator.color-gold {\n\t\tbackground-color: var(--green);\n\t}\n\t.position-indicator.color-blue {\n\t\tbackground-color: var(--flamingo);\n\t}\n\t.position-indicator.color-green {\n\t\tbackground-color: var(--blue);\n\t}\n\t.position-indicator.color-red {\n\t\tbackground-color: var(--red);\n\t}\n\t.position-indicator.color-default {\n\t\tbackground-color: var(--overlay0);\n\t}\n\t.legend-abbr-letter {\n\t\tcolor: var(--lavender);\n\t}\n\t.legend-text {\n\t\tcolor: var(--text);\n\t}\n\n\t/* Match List */\n\th3.rounds-title {\n\t\tcolor: var(--lavender) !important;\n\t}\n\t.league-table tbody,\n\t.match-teams {\n\t\tcolor: var(--text);\n\t}\n\n\t/* \n\t * Raking content \n\t *\n\t */\n\t.ranking-header {\n\t\tborder-bottom: 1px solid var(--surface2);\n\t}\n\t.player-list .player-item {\n\t\tborder-bottom: 1px solid var(--surface0);\n\t}\n\n\t.player-list .player-avatar,\n\t.player-list .player-avatar img {\n\t\tbackground-color: var(--crust);\n\t}\n\n\t.player-list .team-logo {\n\t\tpadding: 3px;\n\t\tbackground-color: var(--base);\n\t}\n\n\t.player-list .team-logo-inner,\n\t.player-list .team-logo-inner img {\n\t\tbackground-color: transparent;\n\t}\n\n\t.player-avatar img[src*=\"default.svg\"] {\n\t\tcontent: url('https://raw.githubusercontent.com/gldtn/cruzeiro/master/default_avatar.svg') !important;\n\t\twidth: 64px !important;\n\t\theight: 64px !important;\n\t}\n\n\t.ranking-header h3,\n\t.player-list .player-item .player-info .player-position {\n\t\tcolor: var(--lavender) !important;\n\t}\n\n\t.player-list .player-item .player-goals,\n\t.player-list .player-item .player-info .player-details .player-name {\n\t\tcolor: var(--blue) !important;\n\t}\n\n\t.player-list .player-item .player-info .player-details .player-role {\n\t\tcolor: var(--surface1)\n\t}\n}",
     "usercssData": {
       "name": "Central da Toca - Catppuccin Mocha",
       "namespace": "https://github.com/openstyles/stylus",
       "version": "1.1.0",
       "description": "Dark, cozy Catppuccin Mocha theme for centraldatoca.com.br (Newspaper theme)",
-      "author": "glaudston (with Grok help)",
+      "author": "glaudston",
       "license": "MIT"
     },
-    "author": "glaudston (with Grok help)",
+    "author": "glaudston",
     "description": "Dark, cozy Catppuccin Mocha theme for centraldatoca.com.br (Newspaper theme)",
     "name": "Central da Toca - Catppuccin Mocha",
-    "updateDate": 1768967104651,
+    "updateDate": 1769139873609,
     "_id": "37b4895e-33e8-4490-b959-062a5f29b4c0",
-    "_rev": 1769001131635,
+    "_rev": 1769193761024,
     "id": 129,
     "preferScheme": "none"
   }
