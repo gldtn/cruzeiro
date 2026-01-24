@@ -1,0 +1,591 @@
+/* ==UserStyle==
+@name        Central da Toca - Catppuccin Mocha
+@namespace   https://github.com/openstyles/stylus
+@version     2026.01.25
+@description Dark, cozy Catppuccin Mocha theme for centraldatoca.com.br
+@author      Glaudston Soares
+@license     MIT
+==/UserStyle== */
+
+@import "https://userstyles.catppuccin.com/lib/lib.less";
+
+@-moz-document domain("centraldatoca.com.br") {
+    @import (css)
+        url("https://catppuccin.github.io/gitea/theme-catppuccin-@{lightFlavor}-@{accentColor}.css")
+        (prefers-color-scheme: light);
+    @import (css)
+        url("https://catppuccin.github.io/gitea/theme-catppuccin-@{darkFlavor}-@{accentColor}.css")
+        (prefers-color-scheme: dark);
+}
+@-moz-document domain("centraldatoca.com.br") {
+    /* ────────────────────────────────────────────────
+     		Catppuccin Mocha palette
+     	 ──────────────────────────────────────────────── */
+    :root {
+        --rosewater: #f5e0dc;
+        --flamingo: #f2cdcd;
+        --pink: #f5c2e7;
+        --mauve: #cba6f7;
+        --red: #f38ba8;
+        --maroon: #eba0ac;
+        --peach: #fab387;
+        --yellow: #f9e2af;
+        --green: #a6e3a1;
+        --teal: #94e2d5;
+        --sky: #89dceb;
+        --sapphire: #74c7ec;
+        --blue: #89b4fa;
+        --lavender: #b4befe;
+        --text: #cdd6f4;
+        --subtext1: #bac2de;
+        --subtext0: #a6adc8;
+        --overlay2: #9399b2;
+        --overlay1: #7f849c;
+        --overlay0: #6c7086;
+        --surface2: #585b70;
+        --surface1: #45475a;
+        --surface0: #313244;
+        --base: #1e1e2e;
+        --mantle: #181825;
+        --crust: #11111b;
+        /* show all links */
+        --custom-color-3: var(--lavender) !important;
+        /* article a:hover colors */
+        --custom-color-4: var(--lavender) !important;
+        /* h3.entry-title.td-module-title a:hover */
+        --custom-color-5: var(--blue) !important;
+        /* header hamburger icon */
+        --custom-color-8: var(--blue) !important;
+        /* header search icon */
+        --custom-color-6: var(--mantle) !important;
+        /* usually header/menu bar bg */
+        --custom-color-7: var(--mantle) !important;
+        /* alternate body sections */
+        --accent-color: var(--surface0) !important;
+        --theme-color: var(--blue) !important;
+        --base-unit: 1em;
+        --space-md: calc(1.25 * var(--base-unit));
+        --space-xl: calc(2.25 * var(--base-unit));
+    }
+
+    /* ────────────────────────────────────────────────
+     		Force backgrounds
+     	 ──────────────────────────────────────────────── */
+    html,
+    body,
+    #td-outer-wrap,
+    .td-theme-wrap,
+    .td-outer-wrap.td-theme-wrap,
+    .tdc_zone,
+    .td-pb-row,
+    .vc_row.td-pb-row,
+    .td-main-content,
+    .tdc-content,
+    .td-main-content-wrap.td-main-page-wrap.td-container-wrap,
+    .tdc-content-wrap {
+        color: var(--text) !important;
+        background: var(--base) !important;
+    }
+    .td-main-content-wrap.td-main-page-wrap.td-container-wrap {
+        padding: var(--space-xl) 0;
+    }
+
+    #tdi_140 div.vc_row,
+    #tdi_152 div.vc_row {
+        background: var(--mantle) !important;
+    }
+
+    /* ────────────────────────────────────────────────
+     		Header
+     	 ──────────────────────────────────────────────── */
+    .td-header-template-wrap,
+	/* 	.td-header-wrap, */
+	/* 	.td-header-mobile-wrap, */
+	/* 	.td-header-menu-wrap, */
+	/* 	.td-header-menu-wrap-full, */
+	/* 	.tdc_zone.tdc-header-zone, */
+	/* 	.tdc_zone:first-of-type, */
+	/* 	.td-header-header, */
+	/* 	.td-header-top-menu-full, */
+	/* 	.td-header-menu-wrap.td-affix, */
+	header {
+        background: var(--base) !important;
+        border-bottom: 2px solid
+            color-mix(in srgb, var(--crust), var(--base) 40%);
+    }
+
+    /* Header inner elements → transparent so they inherit */
+    .td-header-template-wrap .tdc_zone,
+    .td-header-template-wrap .td-pb-row,
+    .td-header-template-wrap .vc_row,
+    .td-header-template-wrap [class*="tdi_"],
+    .td-header-sp-top-menu,
+    .td-header-logo,
+    .td-header-menu-socials,
+    .td-header-gradient {
+        background: var(--mantle) !important;
+    }
+
+    /* ────────────────────────────────────────────────
+     		Footer
+     	 ──────────────────────────────────────────────── */
+    .td-footer-wrapper,
+    .td-footer-container,
+    .td-footer-bottom-full,
+    .td-footer-extra,
+    .td-footer-wrap,
+    .td-footer-template-wrap,
+    footer,
+    .site-footer,
+    #colophon {
+        background: var(--mantle) !important;
+        border-top: 1px solid color-mix(in srgb, var(--crust), var(--base) 40%);
+    }
+
+    .td-footer-wrap .vc_row.td-pb-row {
+        background: var(--mantle) !important;
+    }
+
+    /* Kill pseudo overlays in header/footer */
+    .td-header-template-wrap::before,
+    .td-header-template-wrap::after,
+    .td-footer-wrapper::before,
+    .td-footer-wrapper::after,
+    body > .td-menu-background,
+    .td-search-background {
+        background: var(--mantle) !important;
+    }
+
+    /* ────────────────────────────────────────────────
+     		Base body tweaks
+       ──────────────────────────────────────────────── */
+    body {
+        background: var(--base) !important;
+        color: var(--text) !important;
+        font-family:
+            system-ui,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Oxygen,
+            Ubuntu,
+            Cantarell,
+            "Open Sans",
+            sans-serif !important;
+    }
+
+    /* Breadcrumbs */
+    .tdb_breadcrumbs a,
+    .tdb-breadcrumbs a {
+        color: var(--surface2) !important;
+    }
+
+    .tdb-bread-sep.td-icon-right {
+        color: var(--surface0) !important;
+    }
+
+    /* ────────────────────────────────────────────────
+     		Typography & accents
+     	 ──────────────────────────────────────────────── */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--blue) !important;
+    }
+
+    h1 a,
+    h2 a,
+    h3 a {
+        color: var(--text) !important;
+    }
+
+    p,
+    li {
+        color: var(--text) !important;
+    }
+
+    a {
+        color: var(--blue) !important;
+        transition: color 0.2s ease;
+    }
+    a:hover,
+    a:focus {
+        color: var(--lavender) !important;
+        text-decoration: underline !important;
+    }
+
+    /* Navigation / Menu */
+    nav,
+    .main-navigation,
+    .menu,
+    .nav-menu,
+    .menu-item a,
+    .nav-link {
+        color: var(--text) !important;
+    }
+    .menu-item a:hover,
+    .current-menu-item > a,
+    .current_page_item > a {
+        color: var(--blue) !important;
+        /*     background: var(--surface0) !important; */
+    }
+
+    /* Search */
+    input[type="search"],
+    .search-field,
+    #td-header-search-mob {
+        background: var(--surface1) !important;
+        color: var(--text) !important;
+        border: 1px solid var(--surface2) !important;
+        border-radius: 6px !important;
+    }
+    input::placeholder {
+        color: var(--overlay0) !important;
+    }
+
+    /* Buttons */
+    .nav-button,
+    .prev-button,
+    .next-button {
+        color: var(--mauve) !important;
+    }
+    .nav-button:disabled {
+        color: var(--surface1) !important;
+    }
+    .btn:hover,
+    button:hover,
+    .read-more:hover {
+        color: var(--green) !important;
+    }
+
+    /* ────────────────────────────────────────────────
+    		Posts, posts excerpts, articles, main content
+     	 ──────────────────────────────────────────────── */
+
+    /* .td_block_separator { var(--surface0); } */
+
+    .td-post-date {
+        float: right;
+    }
+
+    .td-excerpt,
+    .td-post-date,
+    .tdb-post-meta {
+        color: var(--overlay1) !important;
+    }
+
+    .tdb-author-descr {
+        color: var(--subtext0) !important;
+    }
+    .tdb-author-info-wrap {
+        border: 1px solid var(--surface0);
+        border-radius: 4px;
+    }
+
+    /* ────────────────────────────────────────────────
+    		Logo
+     	 ──────────────────────────────────────────────── */
+    .tdb-logo-img-wrap img {
+        filter: brightness(0.95) contrast(0.05) sepia(1) hue-rotate(195deg)
+            saturate(8.5) !important;
+        transition: filter 0.3s ease !important;
+    }
+
+    .tdb-logo-img-wrap {
+        height: 64px !important;
+        overflow: hidden;
+    }
+
+    .td-footer-template-wrap .tdb-logo-img-wrap {
+        height: 42px !important;
+        overflow: hidden;
+    }
+
+    /* ────────────────────────────────────────────────
+    		Ads & banners - Sobre revisão
+     	 ──────────────────────────────────────────────── */
+
+    div#footer_01,
+    .td-adspot-title,
+    [id*="horizontal_"] {
+        display: none !important;
+    }
+
+    /* Scrollbar & selection (Firefox-friendly) */
+    * {
+        scrollbar-color: var(--surface2) var(--mantle) !important;
+        scrollbar-width: thin !important;
+    }
+    ::selection {
+        background: var(--mauve) !important;
+        color: var(--crust) !important;
+    }
+
+    /* Extra WP blocks */
+    .has-text-color {
+        color: var(--text) !important;
+    }
+
+    /* ────────────────────────────────────────────────
+     		SAMUCA TV ** Video playlist
+     	 ──────────────────────────────────────────────── */
+
+    .td_wrapper_video_playlist .td_container_video_playlist {
+        background-color: var(--crust);
+    }
+    .td_wrapper_video_playlist .td_video_title_and_time {
+        padding: 0 6px 0 103px;
+    }
+    .td_video_title {
+        color: var(--overlay0) !important;
+    }
+    .td_video_time {
+        color: var(--surface0) !important;
+        padding-top: 4px;
+        float: right;
+    }
+
+    /* currently playing video */
+    .td_wrapper_video_playlist .td_video_currently_playing,
+    .td_wrapper_video_playlist .td_click_video:hover {
+        background: color-mix(
+            in srgb,
+            var(--mantle),
+            var(--surface0) 20%
+        ) !important;
+    }
+    .td_wrapper_video_playlist .td_video_currently_playing .td_video_title {
+        color: var(--subtext0) !important;
+    }
+    .td_wrapper_video_playlist .td_video_currently_playing .td_video_time {
+        color: var(--surface2) !important;
+    }
+
+    /* ────────────────────────────────────────────────
+   			Catppuccin Mocha table styling – Tabelas
+   		 ──────────────────────────────────────────────── */
+
+    /* Table wrapper / container */
+    .td_block_wrap table,
+    [class^="tdi_"] table,
+    table,
+    .wp-block-table,
+    .td-table-wrap,
+    .td-module-wrap table {
+        background: var(--mantle) !important;
+        border: none !important;
+        width: 100% !important;
+        margin: 0.2rem 0 !important;
+        overflow: hidden !important;
+    }
+
+    /* Group wrapper */
+    .group-container .league-table-container {
+        padding: var(--space-md);
+        background: var(--mantle);
+        border-radius: 8px !important;
+    }
+
+    /* Table head */
+    table thead,
+    table th {
+        background: var(--mantle) !important;
+        color: var(--surface1) !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding: 12px 10px !important;
+        border-bottom: 1px solid var(--surface0) !important;
+    }
+
+    .league-table th h2 {
+        color: var(--surface1) !important;
+    }
+
+    /* Rows – odd rows */
+    table tbody tr {
+        background: var(--mantle) !important;
+        color: var(--text) !important;
+        transition: background 0.15s ease !important;
+    }
+
+    /* Zebra striping – even rows */
+    table tbody tr:nth-child(even) {
+        background: color-mix(
+            in srgb,
+            var(--mantle),
+            var(--crust) 50%
+        ) !important;
+    }
+
+    /* Hover lift – subtle surface1 for both odd/even */
+    table tbody tr:hover {
+        background: color-mix(
+            in srgb,
+            var(--mantle),
+            var(--surface0) 20%
+        ) !important;
+    }
+
+    /* Cells – padding, alignment, borders */
+    table td {
+        padding: 12px 10px !important;
+        text-align: center !important;
+        vertical-align: middle !important;
+        background: inherit !important;
+        border: none !important;
+    }
+
+    /* First column (position/team) – left align + accent */
+    table td:first-child {
+        text-align: left !important;
+        font-weight: 500 !important;
+    }
+
+    /* Team (V)Wins column */
+    table td:nth-child(4) {
+        color: var(--green) !important;
+        font-weight: 500 !important;
+    }
+
+    /* Team (D)Loses column */
+    table td:nth-child(6) {
+        color: var(--red) !important;
+        font-weight: 500 !important;
+    }
+
+    /* Team J/E column */
+    table td:nth-child(3),
+    table td:nth-child(5) {
+        color: var(--overlay2) !important;
+        /* your chosen color */
+        font-weight: 500 !important;
+    }
+
+    /* Team GP/GC/SG column */
+    table td:nth-child(7),
+    table td:nth-child(8),
+    table td:nth-child(9) {
+        color: var(--surface2) !important;
+        /* your chosen color */
+        font-weight: 500 !important;
+    }
+
+    /* Team/position column */
+    table td:nth-child(2) {
+        color: var(--lavender) !important;
+        font-weight: 500 !important;
+    }
+
+    /* Points column – green highlight */
+    table td:last-child {
+        color: var(--lavender) !important;
+        font-weight: 300 !important;
+    }
+
+    /* Bottom rounding + no last border */
+    table tbody tr:last-child td {
+        border-bottom: none !important;
+    }
+
+    /* Kill inline/theme overrides */
+    table[style],
+    th[style],
+    td[style] {
+        background: inherit !important;
+        color: inherit !important;
+        border-color: var(--surface1) !important;
+    }
+
+    /* Team logos */
+    table img,
+    .tabela-classificacao img,
+    .team-logo {
+        border: none !important;
+        vertical-align: middle !important;
+        margin-right: 8px !important;
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    /* LEGENDS */
+    /* Team position Legends */
+    .position-indicator.color-gold {
+        background-color: var(--green);
+    }
+    .position-indicator.color-blue {
+        background-color: var(--flamingo);
+    }
+    .position-indicator.color-green {
+        background-color: var(--blue);
+    }
+    .position-indicator.color-red {
+        background-color: var(--red);
+    }
+    .position-indicator.color-default {
+        background-color: var(--overlay0);
+    }
+    .legend-abbr-letter {
+        color: var(--lavender);
+    }
+    .legend-text {
+        color: var(--text);
+    }
+
+    /* Match List */
+    h3.rounds-title {
+        color: var(--lavender) !important;
+    }
+    .league-table tbody,
+    .match-teams {
+        color: var(--text);
+    }
+
+    /*
+	 * Raking content
+	 */
+    .ranking-header {
+        border-bottom: 1px solid var(--surface2);
+    }
+    .player-list .player-item {
+        border-bottom: 1px solid var(--surface0);
+    }
+
+    .player-list .player-avatar,
+    .player-list .player-avatar img {
+        background-color: var(--crust);
+    }
+
+    .player-list .team-logo {
+        padding: 3px;
+        background-color: var(--base);
+    }
+
+    .player-list .team-logo-inner,
+    .player-list .team-logo-inner img {
+        background-color: transparent;
+    }
+
+    .player-avatar img[src*="default.svg"] {
+        content: url("https://raw.githubusercontent.com/gldtn/cruzeiro/master/default_avatar.svg") !important;
+        width: 64px !important;
+        height: 64px !important;
+    }
+
+    .ranking-header h3,
+    .player-list .player-item .player-info .player-position {
+        color: var(--lavender) !important;
+    }
+
+    .player-list .player-item .player-goals,
+    .player-list .player-item .player-info .player-details .player-name {
+        color: var(--blue) !important;
+    }
+
+    .player-list .player-item .player-info .player-details .player-role {
+        color: var(--surface1);
+    }
+}
